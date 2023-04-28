@@ -9,6 +9,7 @@ keytable=prefixless
 # CLIENT
 # ==============================================================================
 tmux bind-key -T "$keytable" M-d detach-client
+tmux bind-key -T "$keytable" M-x kill-server
 tmux bind-key -T "$keytable" M-c copy-mode
 # ==============================================================================
 # NAVIGATION
