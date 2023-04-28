@@ -14,6 +14,9 @@ tmux bind-key -T "$keytable" M-c copy-mode
 # NAVIGATION
 # ==============================================================================
 
+# close current pane
+tmux bind-key -T "$keytable" M-w kill-pane
+
 # Choose a session
 # tmux bind-key -T "$keytable" M-a choose-session -O name
 
