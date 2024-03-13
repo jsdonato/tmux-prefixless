@@ -83,7 +83,7 @@ tmux bind-key -T "$keytable" 'M-\' "split-window -h -c '#{pane_current_path}'"
 # ==============================================================================
 
 # New/rename/swap window with <M-N/r/S-Left/S-Right>
-tmux bind-key -T "$keytable" M-n "new-window -c '#{pane_current_path}'"
+tmux bind-key -T "$keytable" M-t "new-window -c '#{pane_current_path}'"
 # tmux bind-key -T "$keytable" M-r "command-prompt 'rename-window %%'"
 
 # # Synchronize panes on/off with with <M-Z/z>
